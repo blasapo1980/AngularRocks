@@ -5,14 +5,32 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="description" content="Página con vídeo, fotos e breve historia; de las bandas más míticas y relevantes del SXX">
     <meta name="keywords" content="angular">
+
+    <link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Angular Rocks</title>
   </head>
+
   <body>
-    <header>
-      <ul class="list-links menu-full-screen">
+    <header class="header">
+      <ul class="js-list-links menu-full-screen">
       </ul>
+
+    <button class="btn-menu" type="button" name="menu">
+      <img class="btn-img" src="img/icon-menu.png" alt="">
+    </button>
+
+    <ul class="hidden js-menu-mobile">
+      <li><a href="pages/bar.html">bar</a></li>
+      <li><a href="pages/foo.html">foo</a></li>
+      <li><a href="pages/queen.html">Queen</a></li>
+      <li><a href="pages/the-beatles.html">The Beatles</a></li>
+      <li><a href="pages/the-rolling-stones.html">The Rolling Stones</a></li>
+    </ul>
+
     </header>
 
   <script src="main.js" charset="utf-8"></script>
   </body>
+
 </html>

@@ -1,6 +1,14 @@
 "use strict";
 
-var principalMenu = document.querySelector(".list-links");
+var boton = document.querySelector(".btn-menu");
+function toggle() {
+  var menuMobile = document.querySelector(".js-menu-mobile");
+  menuMobile.classList.toggle('hidden');
+}
+boton.addEventListener('click', toggle);
+
+
+var principalMenu = document.querySelector(".js-list-links");
 var itemsPrincipalMenu = [
   "bar",
   "foo",

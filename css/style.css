@@ -1,0 +1,23 @@
+.header {
+  background-color: #8F8BDD; }
+
+.hidden {
+  display: none; }
+
+.menu-full-screen {
+  display: none; }
+
+.btn-menu {
+  width: 50px; }
+
+.btn-img {
+  width: 100%; }
+
+@media (min-width: 480px) {
+  .menu-full-screen {
+    display: inline; }
+
+  .btn-menu {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
