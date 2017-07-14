@@ -1,9 +1,6 @@
 .header {
   background-color: #8F8BDD; }
 
-.hidden {
-  display: none; }
-
 .menu-full-screen {
   display: none; }
 
@@ -19,5 +16,7 @@
 
   .btn-menu {
     display: none; } }
+.hidden {
+  display: none; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */
