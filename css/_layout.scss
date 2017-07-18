@@ -1,7 +1,20 @@
-.header {
-  background-color: #818D92;
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.header {
+  background-color: $color-header-footer;
+  color: $color-white;
+}
+
+.no-scroll {
+  max-height: 100vh;
+}
 .footer {
-  background-color:#818D92;
+  background-color:$color-header-footer;
+  color: $color-white;
+  height: 20%;
+
 }

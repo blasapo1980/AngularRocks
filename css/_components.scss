@@ -1,14 +1,25 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .menu-full-screen {
   display: none;
 }
 
 .btn-menu {
   width: 50px;
+  background-color: inherit;
+  border: none;
 }
 
 .btn-img {
   width: 100%;
 }
+
 
 @media (min-width: $breakPointMenuMobile){
   .menu-full-screen {

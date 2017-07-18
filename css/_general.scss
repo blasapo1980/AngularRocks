@@ -1,25 +1,29 @@
-.center {
-  text-align: center;
-}
-
 .page-content {
   display: flex;
-  flex-direction: row;
-
-}
-
-.text-and-image {
-
+  justify-content: space-around;
 }
 
 .half {
-  width: 40%;
+  width: 45vw;
 }
 
 .image-container {
-  
+  width: 40vw;
+}
+
+.image-group{
+  width: 100%;
 }
 
 .video {
 
+}
+
+@media (max-width: $breakPointMenuMobile) {
+  .page-content{
+    display: inline;
+  }
+  .half {
+    width: 100vw;
+  }
 }
