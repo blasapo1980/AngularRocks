@@ -1,5 +1,23 @@
+.center {
+  text-align: center; }
+
+.page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.half {
+  width: 40%; }
+
 .header {
-  background-color: #8F8BDD; }
+  background-color: #818D92; }
+
+.footer {
+  background-color: #818D92; }
 
 .menu-full-screen {
   display: none; }
