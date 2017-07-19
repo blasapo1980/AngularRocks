@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.no-scroll {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .principal{
   display: flex;
   flex-direction: column;
@@ -7,14 +19,19 @@
 .header {
   background-color: $color-header-footer;
   color: $color-white;
+  height: 8%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.no-scroll {
-  max-height: 100vh;
-}
 .footer {
   background-color:$color-header-footer;
   color: $color-white;
-  height: 20%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
