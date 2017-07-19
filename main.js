@@ -18,5 +18,5 @@ var itemsPrincipalMenu = [
 ];
 
 for (var i = 0; i < itemsPrincipalMenu.length; i++) {
-  principalMenu.innerHTML += '<li><a href="pages/'+ itemsPrincipalMenu[i]+'.html">'+itemsPrincipalMenu[i]+'</a></li>'
+  principalMenu.innerHTML += '<li><a  class="menu-full-screen-items" href="pages/'+ itemsPrincipalMenu[i]+'.html">'+itemsPrincipalMenu[i]+'</a></li>'
 }

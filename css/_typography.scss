@@ -14,3 +14,19 @@ body {
   font-family: $font-paragraph;
   font-size: 1em;
 }
+
+.principal {
+  color: $color-white;
+}
+
+.menu-mobile-items {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.menu-full-screen-items {
+  color: $color-white;
+  font-size: 2em;
+  text-decoration: none;
+
+}

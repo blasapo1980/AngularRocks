@@ -1,5 +1,5 @@
 a {
-  text-decoration: none;
+  color: $color-white;
 }
 
 ul {
@@ -8,11 +8,20 @@ ul {
 
 .menu-full-screen {
   display: none;
+  background-color: $color-header-footer;
+  opacity: 0.5;
 }
 
+.memu-mobile-container{
+  position: absolute;
+  background-color: $color-header-footer;
+  top:0;
+  left: 50px;
+  border-radius: 5px;
+}
 .btn-menu {
   width: 50px;
-  background-color: inherit;
+  background-color: $color-white;
   border: none;
 }
 
@@ -51,10 +60,10 @@ ul {
 
 .video {
   width: 70%;
-  height: 60%;
 }
 
 @media (max-width: $breakPointMenuMobile) {
+
   .page-content{
     display: inline;
   }
@@ -63,13 +72,14 @@ ul {
   }
 }
 
-
-
 @media (min-width: $breakPointMenuMobile){
   .menu-full-screen {
     display: inline;
   }
   .btn-menu {
+    display: none;
+  }
+  .memu-mobile-container {
     display: none;
   }
 }

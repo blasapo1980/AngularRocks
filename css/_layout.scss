@@ -10,10 +10,16 @@ body {
   justify-content: space-between;
 }
 
+.header-principal{
+  position: relative;
+}
 .principal{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: url("https://static.pexels.com/photos/486178/pexels-photo-486178.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
@@ -31,6 +37,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
 }

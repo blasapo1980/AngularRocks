@@ -24,6 +24,18 @@ body {
   font-family: "Rokkitt", serif;
   font-size: 1em; }
 
+.principal {
+  color: #E0DDCF; }
+
+.menu-mobile-items {
+  color: #E0DDCF;
+  text-decoration: none; }
+
+.menu-full-screen-items {
+  color: #E0DDCF;
+  font-size: 2em;
+  text-decoration: none; }
+
 body {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -42,6 +54,9 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.header-principal {
+  position: relative; }
+
 .principal {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -52,7 +67,10 @@ body {
           flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  background-image: url("https://static.pexels.com/photos/486178/pexels-photo-486178.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .header {
   background-color: #818D92;
@@ -80,17 +98,26 @@ body {
           align-items: center; }
 
 a {
-  text-decoration: none; }
+  color: #E0DDCF; }
 
 ul {
   list-style: none; }
 
 .menu-full-screen {
-  display: none; }
+  display: none;
+  background-color: #818D92;
+  opacity: 0.5; }
+
+.memu-mobile-container {
+  position: absolute;
+  background-color: #818D92;
+  top: 0;
+  left: 50px;
+  border-radius: 5px; }
 
 .btn-menu {
   width: 50px;
-  background-color: inherit;
+  background-color: #E0DDCF;
   border: none; }
 
 .btn-img {
@@ -123,8 +150,7 @@ ul {
   height: 100%; }
 
 .video {
-  width: 70%;
-  height: 60%; }
+  width: 70%; }
 
 @media (max-width: 480px) {
   .page-content {
@@ -137,6 +163,9 @@ ul {
     display: inline; }
 
   .btn-menu {
+    display: none; }
+
+  .memu-mobile-container {
     display: none; } }
 .hidden {
   display: none; }
