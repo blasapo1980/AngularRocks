@@ -11,6 +11,19 @@
 .half {
   width: 45vw; }
 
+h1, h2 {
+  font-family: "New Rocker", cursive; }
+
+h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 2em; }
+
+body {
+  font-family: "Rokkitt", serif;
+  font-size: 1em; }
+
 body {
   margin: 0;
   -webkit-box-sizing: border-box;
